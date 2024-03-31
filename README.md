@@ -6,10 +6,10 @@ Welcome to our React Native Chat Bot App! This application allows users to inter
 Follow these steps to get started with the React Native Chat Bot App:
 
 **Clone the Repository: **
-git clone https://github.com/
+git clone git@github.com:aravindkk004/chat-bot-app.git
 
 **Navigate to the Project Directory: **
-cd react-native-chat-bot
+cd chat-bot-app
 
 **Install Dependencies:** 
 npm install or yarn install.
