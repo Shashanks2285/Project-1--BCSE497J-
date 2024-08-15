@@ -7,9 +7,9 @@ import {
 } from "react-native";
 import React from "react";
 import Ionicons from "react-native-vector-icons/Ionicons";
-import { API_KEY } from "@env";
+// import { API_KEY } from "@env";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-
+const API_KEY="AIzaSyCl6dmFzZ4BVn_3GeUAc1ZbKgo2wRObsVM";
 const InputBar = ({
   name,
   setName,
@@ -84,7 +84,7 @@ const InputBar = ({
       </TouchableOpacity>
 
       <Text style={styles.text}>
-        Chatly can make mistakes. Consider checking important information.
+        Bot can make mistakes. Consider consulting a qualified consultant before any diagnosis.
       </Text>
     </View>
   );

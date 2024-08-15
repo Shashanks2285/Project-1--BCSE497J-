@@ -10,7 +10,7 @@ const DisplayMsg = ({messages, isAnswering}) => {
     {messages.length === 0 ? (
       <View style={[styles.view, styles.first]}>
         <Image style={styles.img} source={logo} fadeDuration={1000}/>
-        <Text style={styles.firstText}>Introducing Chatly Chat Bot App! Engage in dynamic conversations and discover personalized responses tailored to your queries.</Text>
+        <Text style={styles.firstText}>Introducing Medguide Chat Bot App! Engage in dynamic conversations and discover personalized medical queries.</Text>
       </View>
     ) : (
       <View style={styles.view}>

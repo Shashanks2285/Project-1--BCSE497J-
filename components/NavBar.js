@@ -4,7 +4,7 @@ import React from 'react'
 const NavBar = () => {
   return (
     <View style={styles.navbar}>
-      <Text style={styles.header}>Chatly</Text>
+      <Text style={styles.header}>Med Guide 🩺</Text>
     </View>
   )
 }
