@@ -9,7 +9,7 @@ import React from "react";
 import Ionicons from "react-native-vector-icons/Ionicons";
 // import { API_KEY } from "@env";
 import { GoogleGenerativeAI } from "@google/generative-ai";
-const API_KEY="AIzaSyCl6dmFzZ4BVn_3GeUAc1ZbKgo2wRObsVM";
+const API_KEY="#################################";
 const InputBar = ({
   name,
   setName,
