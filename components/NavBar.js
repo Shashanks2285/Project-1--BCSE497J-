@@ -13,7 +13,8 @@ export default NavBar
 
 const styles = StyleSheet.create({
     navbar: {
-        paddingVertical: 8,
+        paddingTop: 28,
+        paddingBottom: 8,
         elevation: 15,
         borderBottomWidth: 0.5,
         borderBottomColor: "#000",

@@ -6,7 +6,7 @@ const NavigationBar = () => {
   const navigation = useNavigation();
 
   const buttons = [
-    { title: 'Home', route: 'Home' },
+    { title: 'Profile', route: 'Profile' },
     { title: 'Main', route: 'Main' },
     { title: 'Medicine', route: 'Medicine' },
     { title: 'Bot', route: 'Bot' },
@@ -32,23 +32,24 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
-    paddingVertical: 10,
-    backgroundColor: '#333',
-    borderTopWidth: 1,
-    borderTopColor: '#444',
+    paddingVertical: 9,
+    backgroundColor: '#white',
+    borderTopColor: '#fff',
+    // elevation: 15,
   },
   navButton: {
     flex: 1,
     alignItems: 'center',
-    paddingVertical: 10,
-    marginHorizontal: 5,
-    backgroundColor: '#444',
-    borderRadius: 10,
+    paddingBottom: 10,
+    marginHorizontal: 1,
+    // backgroundColor: '#white',
+    // borderRadius: 8
   },
   navButtonText: {
-    color: '#fff',
-    fontSize: 16,
+    color: '#000',
+    fontSize: 20,
     fontWeight: 'bold',
+    elevation: 15
   },
 });
 

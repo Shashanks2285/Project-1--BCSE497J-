@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
-import NavBar from "../components/NavBar";
+import NavigationBar from "../components/NavigationBar"; // Import the custom NavigationBar component
 import DisplayMsg from "../components/DisplayMsg";
 import InputBar from "../components/InputBar";
 import { useState } from "react";
@@ -14,7 +14,6 @@ const Bot = () => {
 
   return (
     <>
-      <NavBar />
       <DisplayMsg messages={messages} isAnswering={isAnswering}/>
       <InputBar
         name={name}
@@ -24,6 +23,7 @@ const Bot = () => {
         setMessages = {setMessages}
         messages = {messages}
       />
+      {/* <NavigationBar /> */}
     </>
   );
 };
